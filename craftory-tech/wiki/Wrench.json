@@ -1,0 +1,9 @@
+{
+  "icon": "\/assets\/craftory-tech\/renders\/wrench.png",
+  "tags": [
+    {
+      "type": "since",
+      "release": "1.2"
+    }
+  ]
+}

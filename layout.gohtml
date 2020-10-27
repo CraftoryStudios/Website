@@ -1,0 +1,123 @@
+{{- /*gotype: github.com/refinedmods/sitegen/render.RenderData*/ -}}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="/dist/{{.Project.Slug}}.css">
+    <script src="/dist/{{.Project.Slug}}.js"></script>
+
+    <title>{{.Title}} - Craftory Studios</title>
+</head>
+<body data-project="{{.Project.Slug}}">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark main-nav d-none d-lg-block d-xl-block">
+    <div class="container">
+        <ul class="navbar-nav">
+            {{range $i, $project := .Site.Projects}}
+                <li class="nav-item">
+                    <a class="{{if eq $i 0}}pl-0{{end}} nav-link {{if eq $project $.Project}}active{{ end }}"
+                       href="/{{$project.Slug}}">{{$project.Name}}</a>
+                </li>
+            {{end}}
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.spigotmc.org/resources/authors/craftorystudios.771540/">
+                    <i class="fas fa-cube"></i> Spigot
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/CraftoryStudios">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://discord.gg/WtTZUzt"><i class="fab fa-discord"></i>
+                    Discord</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <div class="d-flex">
+        <div class="logo mr-3 mt-2 mb-2">
+            {{if eq .Project.Name "Craftory Tech"}}
+            <a class="navbar-brand" href="/{{.Project.Slug}}">
+                &nbsp;
+            </a>
+            {{end}}
+        </div>
+        </div>
+
+        <button class="navbar-toggler d-block d-lg-none d-xl-none" type="button" data-toggle="collapse"
+                data-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link {{if eq .NavItem "home"}}active{{end}}" href="/{{.Project.Slug}}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{if eq .NavItem "wiki"}}active{{end}}" href="/{{.Project.Slug}}/wiki">Wiki</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{if eq .NavItem "releases"}}active{{end}}" href="/{{.Project.Slug}}/releases">Releases</a>
+                </li>
+
+                <div class="d-block d-lg-none d-xl-none">
+                    {{range $i, $project := .Site.Projects}}
+                        <li class="nav-item">
+                            <a class="{{if eq $i 0}}pl-0{{end}} nav-link {{if eq $project $.Project}}active{{ end }}"
+                               href="/{{$project.Slug}}"><i class="fas fa-external-link-alt"></i> {{$project.Name}}</a>
+                        </li>
+                    {{end}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.spigotmc.org/resources/authors/craftorystudios.771540/">
+                            <i class="fas fa-cube"></i> Spigot
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/CraftoryStudios">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.gg/WtTZUzt"><i class="fab fa-discord"></i>
+                            Discord</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main role="main" class="pb-4">
+    {{template "body" .}}
+</main>
+
+<footer class="bg-light container d-flex flex-wrap justify-content-between pt-4 pb-2">
+    <p>&copy; Craftory Studios 2020</p>
+</footer>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169337902-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169337902-1');
+</script>
+
+</body>
+</html>
