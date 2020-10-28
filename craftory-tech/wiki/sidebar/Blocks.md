@@ -12,7 +12,7 @@
 - [[BlockPlacer]]
 
 ** Machines **
-- [[ElectricFurance]]
+- [[ElectricFurnace]]
 - [[Foundry]]
 - [[Macerator]]
 - [[MagnatisationTable]]
