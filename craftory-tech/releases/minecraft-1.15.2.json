@@ -1,14 +1,14 @@
 [
   {
-    "version": "1.9",
-    "changelog": "Example",
-    "type": "beta",
-    "date": "2020-01-21T20:03:52+00:00",
+    "version": "0.0.1",
+    "changelog": "First Version",
+    "type": "release",
+    "date": "2020-07-06T20:00:00+00:00",
     "links": {
-      "spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=367788"
+      "spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=342458"
     },
     "downloads": {
-      "spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=367788"
+      "spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=342458"
     }
   }
 ]
