@@ -27,6 +27,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git commit -m "New Build of Website" -a
+          git status
+          
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
