@@ -82,7 +82,7 @@ machine. This should form a new connection. You should now see energy
 transfer from the generator to the machine. You can even connect Power
 Connectors together in a chain or any other pattern.
 
-8\. For large scale projects you can build a [[Configuratior]], this allows
+8\. For large scale projects you can build a [[Configurator]], this allows
 you to copy output configs. Left click to copy and right click to paste!
 Shift Right click to clear currently copied config or just copy a
 different one.
