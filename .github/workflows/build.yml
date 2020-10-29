@@ -16,10 +16,14 @@ jobs:
           fetch-depth: 0
           
       - name: Test
-        run: ls
+        run: |
+          cd ./sourcecode
+          sudo ls
 
       - name: Run sitegen script
-        run: sudo /sourcecode/sitegen.exe
+        run: |
+          cd ./sourcecode
+          ./sitegen.exe
 
       - name: Commit files
         run: |
