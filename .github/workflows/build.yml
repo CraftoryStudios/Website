@@ -14,9 +14,12 @@ jobs:
         with:
           persist-credentials: false 
           fetch-depth: 0
+          
+      - name: Test
+        run: ls
 
       - name: Run sitegen script
-        run: sudo ./sourcecode/sitegen.exe
+        run: sudo /sourcecode/sitegen.exe
 
       - name: Commit files
         run: |
