@@ -23,7 +23,7 @@ jobs:
       - name: Run sitegen script
         run: |
           cd ./sourcecode
-          sudo sitegen.exe
+          sudo ./sitegen.exe
 
       - name: Commit files
         run: |
