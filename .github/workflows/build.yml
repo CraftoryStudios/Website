@@ -20,12 +20,10 @@ jobs:
           cd ./sourcecode
           chmod +x sitegen
           ./sitegen
-          ls
-          cd ../
-          ls
 
       - name: Commit files
         run: |
+          ls
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git commit -m "New Build of Website" -a
@@ -34,3 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: pages
+          force: true
