@@ -20,6 +20,9 @@ jobs:
           cd ./sourcecode
           chmod +x sitegen
           ./sitegen
+          ls
+          cd ../
+          ls
 
       - name: Commit files
         run: |
