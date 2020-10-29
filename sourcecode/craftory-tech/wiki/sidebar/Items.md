@@ -1,9 +1,9 @@
-** Configuration Tools **
+**Configuration Tools**
 - [[Wrench]]
 - [[Configurator]]
 - [[EngineersHammer]]
 
-** Tools **
+**Tools**
 - [[Sickle]]
 - [[Drill]]
 - [[Hammer]]

@@ -1,22 +1,22 @@
-** Generators **
+**Generators**
 - [[SolidFuelGenerator]]
 - [[Windmill]]
 - [[Waterwheel]]
 - [[SolarPanel]]
 
-** Energy **
+**Energy**
 - [[EnergyCell]]
 
-** Manipulator **
+**Manipulator**
 - [[BlockBreaker]]
 - [[BlockPlacer]]
 
-** Machines **
+**Machines**
 - [[ElectricFurnace]]
 - [[Foundry]]
 - [[Macerator]]
 - [[MagnatisationTable]]
 - [[Magnatiser]]
 
-** Ores **
+**Ores**
 - [[CopperOre]]
