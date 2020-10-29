@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run sitegen script
-        run: ./sourcecode/sitegen.exe
+        run: sudo ./sourcecode/sitegen.exe
 
       - name: Commit files
         run: |
