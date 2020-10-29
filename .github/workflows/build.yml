@@ -18,8 +18,8 @@ jobs:
       - name: Run sitegen script
         run: |
           cd ./sourcecode
-          chmod +x sitegen.exe
-          ./sitegen.exe
+          chmod +x sitegen
+          ./sitegen
 
       - name: Commit files
         run: |
