@@ -44,7 +44,7 @@ buffer and distributed to machines placed next to it.
 an Electric [[Foundry]] which will speed up your steel production. You can
 also make [[ElectricFurnace]] which are faster than regular ones. Craft
 one of these and plop it down next to the generator so its touching.
-[[ElectricFurance]] Recipe
+[[ElectricFurnace]] Recipe
 
 Energy won't start transfering straight away. Right click the generator
 to open up the interface, here we can see the battery on the left and
