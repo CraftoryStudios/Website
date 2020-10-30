@@ -28,7 +28,7 @@ and iron ingots in the other two slots you can produce Steel, but be
 prepared at this stage its pretty slow.
 
 3\. Before we start generating energy we need one more component,
-Magnetised Iron. Craft a Engineers Hammer and a [[MagnatisationTable]],
+Magnetised Iron. Craft a Engineers Hammer and a [[Magnatisation Table]],
 right click the top of the table with an iron ingot to place it on top.
 Now get your hammer and hit the top (left click), particles will appear
 and after multiple hits it will become Magnetised Iron! Don't worry this
@@ -36,7 +36,7 @@ can also be sped up with an Electric [[Magnatiser]].
 
 4\. Now we have some steel we can start producing power, there are many
 generators to pick from, check out the Generators section of the Wiki.
-One of the basic ones is the [[SolidFuelGenerator]], this burns normal
+One of the basic ones is the [[Solid Fuel Generator]], this burns normal
 minecraft fuels and produces energy, which is stored in its internal
 buffer and distributed to machines placed next to it.
 

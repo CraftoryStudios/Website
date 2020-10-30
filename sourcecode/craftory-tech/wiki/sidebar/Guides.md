@@ -1,5 +1,8 @@
 **The Basics**
 
-- [[Getting started]]
+- [[Getting Started]]
 
 **Configuration**
+
+- [[Permissions]]
+- [[Server Config]]

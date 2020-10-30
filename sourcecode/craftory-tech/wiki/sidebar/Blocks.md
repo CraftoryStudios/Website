@@ -1,6 +1,6 @@
 **Generators**
 
-- [[SolidFuelGenerator]]
+- [[Solid Fuel Generator]]
 - [[Windmill]]
 - [[Waterwheel]]
 - [[SolarPanel]]
@@ -19,7 +19,7 @@
 - [[ElectricFurnace]]
 - [[Foundry]]
 - [[Macerator]]
-- [[MagnatisationTable]]
+- [[Magnatisation Table]]
 - [[Magnatiser]]
 
 **Ores**
