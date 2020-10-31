@@ -21,7 +21,3 @@
 - [[Macerator]]
 - [[Magnatisation Table]]
 - [[Magnatiser]]
-
-**Ores**
-
-- [[Copper Ore]]

@@ -11,8 +11,12 @@
           "name": "Guides"
         },
         {
-          "file": "craftory-tech/wiki/sidebar/Blocks.md",
-          "name": "Blocks"
+          "file": "craftory-tech/wiki/sidebar/Machines.md",
+          "name": "Machines"
+        },
+        {
+          "file": "craftory-tech/wiki/sidebar/Ores.md",
+          "name": "Ores"
         },
         {
           "file": "craftory-tech/wiki/sidebar/Items.md",

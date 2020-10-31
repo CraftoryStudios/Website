@@ -18,23 +18,23 @@
         <div class="row">
             <div class="col-md-8">
                 <div id="accordion" class="mb-4">
+
                     <div class="card">
-                        <div class="card-header" id="blocks-name">
+                        <div class="card-header" id="machines-name">
                             <h5 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#blocks"
-                                        aria-expanded="true" aria-controls="blocks">
-                                    Blocks
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#machines"
+                                        aria-expanded="true" aria-controls="machines">
+                                    Machines
                                 </button>
                             </h5>
                         </div>
 
-                        <div id="blocks" class="collapse show" aria-labelledby="blocks-name"
+                        <div id="machines" class="collapse show" aria-labelledby="machines-name"
                              data-parent="#accordion">
                             <div class="card-body">
                                 {{wikiIcon .Project "Energy Cell"}}
                                 {{wikiIcon .Project "Block Breaker"}}
                                 {{wikiIcon .Project "Block Placer"}}
-                                {{wikiIcon .Project "Copper Ore"}}
                                 {{wikiIcon .Project "Electric Furnace"}}
                                 {{wikiIcon .Project "Foundry"}}
                                 {{wikiIcon .Project "Macerator"}}
@@ -42,6 +42,24 @@
                                 {{wikiIcon .Project "Magnatisation Table"}}
                                 {{wikiIcon .Project "Solar Panel"}}
                                 {{wikiIcon .Project "Solid Fuel Generator"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="ores-name">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#ores"
+                                        aria-expanded="true" aria-controls="ores">
+                                    Ores
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="ores" class="collapse show" aria-labelledby="ores-name"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                {{wikiIcon .Project "Copper Ore"}}
                             </div>
                         </div>
                     </div>
