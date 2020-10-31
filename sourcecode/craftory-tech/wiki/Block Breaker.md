@@ -10,7 +10,7 @@ the result.
 
 | Tier         | Storage Size | Speed          | Energy Usage          | Max Recieve |
 |:-------------|:-------------|:---------------|:----------------------|:------------|
-| BlockBreaker | 40,000 Re    | Redstone Based | 1200 Re per Operation | 10,000 Re/t |
+| Block Breaker | 40,000 Re    | Redstone Based | 1200 Re per Operation | 10,000 Re/t |
 
 
 ## Usage

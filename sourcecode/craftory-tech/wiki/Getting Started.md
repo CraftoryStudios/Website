@@ -6,8 +6,8 @@ it unique, as it pushes the boundries of what can be achieved.
 
 Craftory Tech is all about machines, most of which are powered by
 energy, called Redstone Energy (Re). There are many different machines
-including [[ElectricFurnace]], Electric [[Foundry]] for combining materials,
-[[EnergyCell]] for storing energy, Generators for making it and even a
+including [[Electric Furnace]], Electric [[Foundry]] for combining materials,
+[[Energy Cell]] for storing energy, Generators for making it and even a
 Power Grid system which allows transfering energy with LASER BEAMS!
 
 Craftory Tech is currently in ALPHA, we have many more features and
@@ -42,9 +42,9 @@ buffer and distributed to machines placed next to it.
 
 5\. So we have power... but what can we do with it. Firstly you can make
 an Electric [[Foundry]] which will speed up your steel production. You can
-also make [[ElectricFurnace]] which are faster than regular ones. Craft
+also make [[Electric Furnace]] which are faster than regular ones. Craft
 one of these and plop it down next to the generator so its touching.
-[[ElectricFurnace]] Recipe
+[[Electric Furnace]] Recipe
 
 Energy won't start transfering straight away. Right click the generator
 to open up the interface, here we can see the battery on the left and
@@ -61,7 +61,7 @@ crafting higher tier ones they have faster and better stats, but also
 higher energy and crafting costs.
 
 7\. Storage... If your a hoarder and you want to start collecting energy
-ready for those large scale smelting projects, then the [[EnergyCell]] is
+ready for those large scale smelting projects, then the [[Energy Cell]] is
 for you. When connected (Placed next to or by Power Grid) to a block
 providing energy it will begin to store it. These blocks have high
 capacities, as well as input and output.

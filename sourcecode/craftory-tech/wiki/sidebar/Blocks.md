@@ -3,20 +3,20 @@
 - [[Solid Fuel Generator]]
 - [[Windmill]]
 - [[Waterwheel]]
-- [[SolarPanel]]
+- [[Solar Panel]]
 
 **Energy**
 
-- [[EnergyCell]]
+- [[Energy Cell]]
 
 **Manipulator**
 
-- [[BlockBreaker]]
-- [[BlockPlacer]]
+- [[Block Breaker]]
+- [[Block Placer]]
 
 **Machines**
 
-- [[ElectricFurnace]]
+- [[Electric Furnace]]
 - [[Foundry]]
 - [[Macerator]]
 - [[Magnatisation Table]]
@@ -24,4 +24,4 @@
 
 **Ores**
 
-- [[CopperOre]]
+- [[Copper Ore]]
