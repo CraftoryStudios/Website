@@ -1,4 +1,4 @@
-## Server Config
+## Config Overview
 
 ```yml
     error_reporting:
