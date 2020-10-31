@@ -9,3 +9,7 @@
 - [[Sickle]]
 - [[Drill]]
 - [[Hammer]]
+
+**Crafting Components**
+
+- [[Cores]]

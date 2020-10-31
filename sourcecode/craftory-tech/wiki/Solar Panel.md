@@ -45,4 +45,12 @@ block. This will disable energy transfer in and out of the block.
 
 ## Recipes
 
-..
+![Basic Solar Panel Recipe](/assets/craftory-tech/crafting/basic_solar_pannel.png)
+
+![Solar Panel Recipe](/assets/craftory-tech/crafting/solar_pannel.png)
+
+![Compacted Solar Panel Recipe](/assets/craftory-tech/crafting/compacted_solar_pannel.png)
+
+![Solar Array Recipe](/assets/craftory-tech/crafting/solar_array.png)
+
+

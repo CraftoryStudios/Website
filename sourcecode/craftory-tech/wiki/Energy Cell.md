@@ -63,4 +63,10 @@ block. This will disable energy transfer in and out of the block.
 
 ## Recipes
 
-..
+![Iron Furnace Recipe](/assets/craftory-tech/crafting/iron_cell_recipe.png)
+
+![Gold Furnace Recipe](/assets/craftory-tech/crafting/gold_cell_recipe.png)
+
+![Diamond Furnace Recipe](/assets/craftory-tech/crafting/diamond_cell_recipe.png)
+
+![Emerald Furnace Recipe](/assets/craftory-tech/crafting/emerald_cell_recipe.png)

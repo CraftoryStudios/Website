@@ -6,4 +6,4 @@ hit a magnetisation table with iron on to forge magnetised iron!
 
 ## Crafting
 
-..
+![Engineers Hammer Recipe](/assets/craftory-tech/crafting/engineers_hammer.png)

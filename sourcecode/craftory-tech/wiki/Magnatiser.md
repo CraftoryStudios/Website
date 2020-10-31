@@ -27,4 +27,4 @@ instantly (this will be changed in the future).
 
 ## Recipes
 
-..
+![Magnatiser Recipe](/assets/craftory-tech/crafting/magnetiser.png)

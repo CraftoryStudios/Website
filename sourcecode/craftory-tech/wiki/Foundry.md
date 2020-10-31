@@ -53,4 +53,12 @@ This will disable energy transfer in and out of the block.
 
 ## Recipes
 
-..
+![Iron Foundry Recipe](/assets/craftory-tech/crafting/iron_foundry.png)
+
+![Iron Foundry Recipe](/assets/craftory-tech/crafting/iron_electric_foundry.png)
+
+![Gold Foundry Recipe](/assets/craftory-tech/crafting/gold_electric_foundry.png)
+
+![Diamond Foundry Recipe](/assets/craftory-tech/crafting/diamond_electric_foundry.png)
+
+![Emerlad Foundry Recipe](/assets/craftory-tech/crafting/emerald_electric_foundry.png)

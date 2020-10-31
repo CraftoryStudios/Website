@@ -16,4 +16,4 @@ pick up Energy blocks with Energy inside, connect Power Grids and more.
 
 ## Crafting
 
-..
+![Wrench Recipe](/assets/craftory-tech/crafting/wrench.png)
