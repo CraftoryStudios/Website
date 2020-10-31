@@ -1,0 +1,86 @@
+[
+  {
+    "version": "0.1.0",
+    "changelog": "First Release",
+    "type": "release",
+    "date": "2020-07-06T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=342458"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=342458"
+    }
+  },
+  {
+    "version": "0.1.1",
+    "changelog": "Translations, Recipe Overhaul, Updater, Saving Overhaul, Fixed Bugs, Fixed Item Saving, Fixed Chunks",
+    "type": "release",
+    "date": "2020-07-10T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=347371"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=343351"
+    }
+  },
+  {
+    "version": "0.1.2",
+    "changelog": "Force Resource Pack, Resource Pack Public",
+    "type": "release",
+    "date": "2020-07-12T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=347690"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=343669"
+    }
+  },
+  {
+    "version": "0.1.3",
+    "changelog": "Custom Model Data Config, New Translations, New Chunk Loading, Fixes",
+    "type": "release",
+    "date": "2020-07-14T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=348181"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=344168"
+    }
+  },
+  {
+    "version": "0.2.0",
+    "changelog": "Added Windmills, Waterwheel, Geothermal, Basic Fluid Support, Sickles, Macerator, Solar Panels, Magnatisation Table, Magnatiser, Engineers Hammer, Custom Tools Support, Block Breaker, Block Placer, Dusts, New Translations, Improvements",
+    "type": "release",
+    "date": "2020-07-28T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=351142"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=347126"
+    }
+  },
+  {
+    "version": "0.2.1",
+    "changelog": "Multiple Fixes, Translations, Texture Updates, Recipes, Meta Data",
+    "type": "release",
+    "date": "2020-08-05T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=352955"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=348946"
+    }
+  },
+  {
+    "version": "0.2.2",
+    "changelog": "Recipe Book, Spawn Menu, New commands, Wrench Shift Click, Recipe Customisation, Tags",
+    "type": "release",
+    "date": "2020-08-20T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=356003"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=351966"
+    }
+  }
+]

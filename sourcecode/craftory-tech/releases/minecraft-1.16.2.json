@@ -1,0 +1,14 @@
+[
+  {
+    "version": "0.2.3",
+    "changelog": "Electric Tools, Energy Bar HUD, Recipe Overhaul, New Wire Graphics, Charging Slot, Improvements",
+    "type": "release",
+    "date": "2020-09-14T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=361041"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=357006"
+    }
+  }
+]

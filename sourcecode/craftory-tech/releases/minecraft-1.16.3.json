@@ -1,5 +1,53 @@
 [
   {
+    "version": "0.2.4",
+    "changelog": "Added 1.16.3 and 1.15 Support",
+    "type": "release",
+    "date": "2020-09-15T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=361177"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=357146"
+    }
+  },
+  {
+    "version": "0.2.5",
+    "changelog": "Oraxen Items Support, Added Wood Types to Waterwheel, Added Wool Types to Windmill, New Recipes, New Custom Tags",
+    "type": "release",
+    "date": "2020-09-19T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=361898"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=357870"
+    }
+  },
+  {
+    "version": "0.2.6",
+    "changelog": "Sentry Reporting, Sounds, Custom Machine Recipes, Better Oraxen, Fixes",
+    "type": "release",
+    "date": "2020-09-26T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=362889"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=358861"
+    }
+  },
+  {
+    "version": "0.2.7",
+    "changelog": "More Permissions, World Blacklist Config, New Macerator Recipes, Translations, New Config, Huge Fixes",
+    "type": "release",
+    "date": "2020-10-19T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=366666"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=362640"
+    }
+  },
+  {
     "version": "0.2.8",
     "changelog": "Error Logging Update",
     "type": "release",
