@@ -8,7 +8,7 @@
 
 - [[Sickle]]
 - [[Drill]]
-- [[Hammer]]
+- [[Power Hammer]]
 
 **Crafting Components**
 
