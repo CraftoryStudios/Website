@@ -54,4 +54,4 @@ level of 0 and then anything above 0 will cause it to trigger.
 
 ## Recipes
 
-..
+![Block Breaker Recipe](/assets/craftory-tech/crafting/block_breaker.png)
