@@ -49,6 +49,9 @@ the future).
 A Macerator can be disabled by providing a redstone siginal to the
 block. This will disable energy transfer in and out of the block.
 
+## Macerator Recipes
+
+![Macerator Recipe](/assets/craftory-tech/crafting/MaceratorRecipes.png)
 
 ## Recipes
 
