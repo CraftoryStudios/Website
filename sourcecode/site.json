@@ -43,6 +43,26 @@
       "templates": {
         "index": "craftory-tech/index.gohtml"
       }
+    },
+    {
+      "name": "Craftory Utils",
+      "wikiPath": "craftory-utils/wiki",
+      "wikiSidebars": [
+        {
+          "file": "craftory-utils/wiki/sidebar/Guides.md",
+          "name": "Guides"
+        }
+      ],
+      "releaseGroups": [
+        {
+          "name": "Minecraft 1.15 - 1.16.3",
+          "source": "craftory-utils/releases/minecraft-1.16.3.json",
+          "featured": true
+        }
+      ],
+      "templates": {
+        "index": "craftory-utils/index.gohtml"
+      }
     }
   ],
   "templates": {

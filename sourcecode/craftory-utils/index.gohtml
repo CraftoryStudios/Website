@@ -1,0 +1,67 @@
+{{- /*gotype: github.com/refinedmods/sitegen/render.ProjectIndex*/ -}}
+{{define "body"}}
+    <div class="jumbotron bg-light pt-4 pb-5">
+        <div class="container">
+            <p class="lead">Craftory Utils</p>
+
+            <hr class="my-4">
+
+            <p>Info</p>
+            <p></p>
+
+            <a class="btn btn-primary btn-lg" href="/craftory-utils/wiki/getting-started.html"
+               role="button">Get started</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="accordion" class="mb-4">
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                {{if .Project.LatestStableRelease}}
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            Latest stable release
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">{{.Project.Name}} {{.Project.LatestStableRelease.Version}}</h5>
+                            <p class="card-text">{{.Project.LatestStableRelease.Group.Name}}</p>
+                            <a href="/{{.Project.Slug}}/releases/{{.Project.LatestStableRelease.Slug}}"
+                               class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                {{end}}
+
+                <div class="card">
+                    <div class="card-header">
+                        Latest releases
+                    </div>
+                    <div class="card-body p-0 m-0">
+                        <div class="list-group list-group-flush">
+                            {{range .Project.ReleaseGroupsReversed}}
+                                {{if .Featured}}
+                                    <a class="list-group-item list-group-item-action"
+                                       href="/{{$.Project.Slug}}/releases/{{.LatestRelease.Slug}}">
+                                        <div class="d-flex justify-content-between">
+                                            <strong>{{.Name}}</strong>
+
+                                            <div class="mt-sm">
+                                                <span class="fa fa-download mt-sm"></span>
+                                            </div>
+                                        </div>
+                                        <p class="mb-0">{{ template "release-badge.gohtml" .LatestRelease  }}
+                                            {{$.Project.Name}} {{.LatestRelease.Version}}</p>
+                                    </a>
+                                {{end}}
+                            {{end}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{end}}

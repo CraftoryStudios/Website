@@ -1,0 +1,14 @@
+[
+  {
+    "version": "1.0.0",
+    "changelog": "Release One",
+    "type": "release",
+    "date": "2020-10-31T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=367788"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=363752"
+    }
+  }
+]
