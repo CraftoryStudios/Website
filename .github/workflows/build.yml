@@ -27,40 +27,9 @@ jobs:
           git add .
           git commit -m "New Build of Website" -a
           
-      - name: Branch protection OFF
-        uses: octokit/request-action@v2.x
-        with:
-          route: PUT /repos/:repository/branches/pages/protection
-          repository: ${{ github.repository }}
-          required_status_checks: |
-            null
-          enforce_admins: |
-            null
-          required_pull_request_reviews: |
-            null
-          restrictions: | 
-            null 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: pages
           force: true
-          
-      - name: Branch protection ON
-        uses: octokit/request-action@v2.x
-        with:
-          route: PUT /repos/:repository/branches/pages/protection
-          repository: ${{ github.repository }}
-          enforce_admins: |
-            null
-          required_pull_request_reviews: |
-            dismiss_stale_reviews: true
-            required_approving_review_count: 1
-          restrictions: | 
-            users: "brett" 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
