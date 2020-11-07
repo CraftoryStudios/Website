@@ -41,7 +41,7 @@ jobs:
           restrictions: | 
             null 
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS_REPO_ADMIN_CI_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -63,4 +63,4 @@ jobs:
           restrictions: | 
             users: "brett" 
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS_REPO_ADMIN_CI_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
