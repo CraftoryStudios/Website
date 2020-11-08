@@ -17,6 +17,19 @@ The code for the website is divided into two main branches the *MAIN (master)* b
 
 **Pages** - This contains the generated website based on the *Main* branch using Sitegen. This branch isn't editable and will only be pushed to on a successful build of the *Main* branch. 
 
+
+## Getting Started
+Most edits of the wiki can be done through editing the markdown files. Inside sourcecode/projectname you can find the wiki folder, this contains the files for each page of a wiki.
+
+Each page must have a .md file which contains the contents of a page. To edit a page, it's as simple as editing this markdown page. Adding a new page requires more steps, please see the dropdown bellow for steps.
+
+The markdown of a page can have special formatting inserted to include links to other pages, for example inserting [[page-name]] where the page name is exactly the same as the file name of that page, minus the file extension. 
+On top of that you can insert [[@page-name]] which instead of a link will insert the contents of that page.
+
+Each page can also have an optional .json file with the same name as the page. This contains a link to the icon used for the page, hover over or anything else. It also has a list of tags that are shown on tag, currently this is only a tag of the version.
+
+After make edits to a markdown or json file for a page, create a pull request into the main branch. Once this is merged the website will be updated. 
+
 Open the dropdowns bellow to find guides:
 
 <details>
@@ -50,20 +63,6 @@ Key: *file* - Signifies a placeholder name or an entry with multiple instances.
 ├── CNAME
 └── .gitignore
 ```
-</details>
-
-<details>
-<summary>Getting Started Contributing</summary>
-Most edits of the wiki can be done through editing the markdown files. Inside sourcecode/projectname you can find the wiki folder, this contains the files for each page of a wiki.
-
-Each page must have a .md file which contains the contents of a page. To edit a page, it's as simple as editing this markdown page. Adding a new page requires more steps, please see the dropdown bellow for steps.
-
-The markdown of a page can have special formatting inserted to include links to other pages, for example inserting [[page-name]] where the page name is exactly the same as the file name of that page, minus the file extension. 
-On top of that you can insert [[@page-name]] which instead of a link will insert the contents of that page.
-
-Each page can also have an optional .json file with the same name as the page. This contains a link to the icon used for the page, hover over or anything else. It also has a list of tags that are shown on tag, currently this is only a tag of the version.
-
-After make edits to a markdown or json file for a page, create a pull request into the main branch. Once this is merged the website will be updated. 
 </details>
 
 <details>
