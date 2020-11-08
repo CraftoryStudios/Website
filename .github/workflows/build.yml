@@ -3,6 +3,8 @@ name: Build Website
 on:
   push:
     branches: [ main ]
+    paths:
+    - 'sourcecode/**'
 
 jobs:
   build:
