@@ -30,6 +30,8 @@ Each page can also have an optional .json file with the same name as the page. T
 
 After make edits to a markdown or json file for a page, create a pull request into the main branch. Once this is merged the website will be updated. 
 
+Video Tutorial Coming Soon...
+
 Open the dropdowns bellow to find guides:
 
 <details>
