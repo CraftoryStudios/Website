@@ -21,6 +21,7 @@ Open the dropdowns bellow to find guides:
 
 <details>
 <summary>Structure of files</summary>
+Key: *file* - Signifies a placeholder name or an entry with multiple instances.
 
 ```bash
 ├── sourcecode
@@ -31,7 +32,7 @@ Open the dropdowns bellow to find guides:
 │   │       └── logo.png
 │   ├── *project* (eg craftory-tech, craftory-utils)
 │   │    ├── releases
-│   │    │   ├── minecraft-x.x.x.json - Contains each release of plugin
+│   │    │   └── *minecraft-x.x.x.json* - Contains each release of plugin
 │   │    ├── wiki
 │   │    │   ├── sidebar
 │   │    │   │   ├── *sidebar-page*.md - Files for each sidebar section
