@@ -1,3 +1,5 @@
 
 .idea/
 output/
+
+.vscode/settings.json
