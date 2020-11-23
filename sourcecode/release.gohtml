@@ -2,7 +2,7 @@
 {{ define "body" }}
     <div class="container pt-3">
         <div class="page-title">
-            <h1 class="h2">{{.Release.Version}}</h1>
+            <h2 class="text-dark">{{.Release.Version}}</h2>
 
             <div class="btn-group" role="group">
                 {{ range $key, $value := .Release.Downloads}}
@@ -19,14 +19,14 @@
         </div>
 
         <nav aria-label="breadcrumb" class="mb-3">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/{{.Project.Slug}}">{{.Project.Name}}</a></li>
-                <li class="breadcrumb-item"><a href="/{{.Project.Slug}}/releases">Releases</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{{ .Release.Version}}</li>
+            <ol class="breadcrumb bg-lighter">
+                <li class="breadcrumb-item text-dark"><a href="/{{.Project.Slug}}">{{.Project.Name}}</a></li>
+                <li class="breadcrumb-item text-dark"><a href="/{{.Project.Slug}}/releases">Releases</a></li>
+                <li class="breadcrumb-item text-dark active" aria-current="page">{{ .Release.Version}}</li>
             </ol>
         </nav>
 
-        <table class="table table-reflow">
+        <table class="table table-reflow text-dark">
             <tr>
                 <th scope="row" width="20%">Version</th>
                 <td>{{.Release.Version}} {{ template "release-badge.gohtml" .Release }}</td>
