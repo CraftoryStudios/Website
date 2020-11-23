@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="/dist/craftory-tech.css">
     <script src="/dist/craftory-tech.js"></script>
+    <script src="/dist/dark-theme.js"></script>
 
     <title>Craftory Studios</title>
 </head>
-<body data-project="craftory-studios">
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark main-nav d-none d-lg-block d-xl-block" aria-labelledby="Top navigation">
+<body data-project="craftory-studios" class="bg-light">
+
+<nav class="navbar navbar-expand-md navbar-dark main-nav d-none d-lg-block d-xl-block" aria-labelledby="Top navigation" style="background-color: #23272a">
     <div class="container">
         <ul class="navbar-nav">
 
@@ -71,18 +73,18 @@
     </div>
 </nav>
 
-<main role="main" class="pb-4">
+<main role="main" class="bg-light pb-4">
 
     <div class="jumbotron bg-light pt-4 pb-5">
         <div class="container">
-            <p class="lead">Craftory Studios aims to create Minecraft Spigot plugins that adds exciting new feature to
+            <p class="lead text-dark">Craftory Studios aims to create Minecraft Spigot plugins that adds exciting new feature to
                 vanilla without any client side installs, just join on a server and play! </p>
 
             <hr class="my-4">
 
             <div class="row">
                 <div class="col-md-8">
-                    <p>Check out the links bellow to our plugins...</p>
+                    <p class="text-dark">Check out the links bellow to our plugins...</p>
 
                     <a class="btn btn-primary btn-lg" href="/craftory-tech/" role="button">
                         Craftory Tech</a>
@@ -94,7 +96,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <iframe src="https://discord.com/widget?id=730061796093984840&amp;theme=light" allowtransparency="false"
+                    <iframe id="craftory-discord" src="https://discord.com/widget?id=730061796093984840&amp;theme=light" allowtransparency="false"
                         width="350" height="450" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
                     </iframe>
                 </div>
@@ -104,8 +106,9 @@
 
 </main>
 
-<footer class="bg-light container d-flex flex-wrap justify-content-between pt-4 pb-2">
-    <p>&copy; Craftory Studios 2020</p>
+<footer class="container d-flex flex-wrap justify-content-between pt-4 pb-2">
+    <p class="text-dark">© Craftory Studios 2020</p>
+    <button id="toggle-theme" type="button" class="btn btn-dark" onload="loadTheme();" onclick="toggleTheme();">Switch to dark mode</button>
 </footer>
 
 </body>
