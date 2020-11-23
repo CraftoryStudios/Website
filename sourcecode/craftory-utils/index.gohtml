@@ -23,11 +23,11 @@
             </div>
             <div class="col-md-4">
                 {{if .Project.LatestStableRelease}}
-                    <div class="card mb-4">
-                        <div class="card-header">
+                    <div class="card mb-4 bg-light">
+                        <div class="card-header text-dark">
                             Latest stable release
                         </div>
-                        <div class="card-body text-center">
+                        <div class="card-body text-center text-dark">
                             <h5 class="card-title">{{.Project.Name}} {{.Project.LatestStableRelease.Version}}</h5>
                             <p class="card-text">{{.Project.LatestStableRelease.Group.Name}}</p>
                             <a href="/{{.Project.Slug}}/releases/{{.Project.LatestStableRelease.Slug}}"
@@ -36,24 +36,24 @@
                     </div>
                 {{end}}
 
-                <div class="card">
-                    <div class="card-header">
+                <div class="card bg-light">
+                    <div class="card-header text-dark">
                         Latest releases
                     </div>
                     <div class="card-body p-0 m-0">
                         <div class="list-group list-group-flush">
                             {{range .Project.ReleaseGroupsReversed}}
                                 {{if .Featured}}
-                                    <a class="list-group-item list-group-item-action"
+                                    <a class="list-group-item list-group-item-action bg-light"
                                        href="/{{$.Project.Slug}}/releases/{{.LatestRelease.Slug}}">
-                                        <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-between text-dark">
                                             <strong>{{.Name}}</strong>
 
                                             <div class="mt-sm">
                                                 <span class="fa fa-download mt-sm"></span>
                                             </div>
                                         </div>
-                                        <p class="mb-0">{{ template "release-badge.gohtml" .LatestRelease  }}
+                                        <p class="mb-0 text-dark">{{ template "release-badge.gohtml" .LatestRelease  }}
                                             {{$.Project.Name}} {{.LatestRelease.Version}}</p>
                                     </a>
                                 {{end}}
