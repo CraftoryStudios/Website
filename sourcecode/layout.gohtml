@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="/dist/{{.Project.Slug}}.css">
     <script src="/dist/{{.Project.Slug}}.js"></script>
     <script src="/dist/dark-theme.js"></script>
+    <link rel="stylesheet" href="/dist/dark-theme.css">
 
     <title>{{.Title}} - Craftory Studios</title>
 </head>
-<body data-project="{{.Project.Slug}}">
+<body data-project="{{.Project.Slug}}" class="bg-light">
 
-<nav class="navbar navbar-expand-md navbar-dark main-nav d-none d-lg-block d-xl-block" aria-labelledby="Top navigation" style="background-color: #23272a">
+<nav class="navbar navbar-expand-md navbar-dark main-nav d-none d-lg-block d-xl-block" aria-labelledby="Top navigation">
     <div class="container">
         <ul class="navbar-nav">
             {{range $i, $project := .Site.Projects}}
@@ -112,8 +113,8 @@
 
 <footer class="container d-flex flex-wrap justify-content-between pt-4 pb-2">
     <p class="text-dark">© Craftory Studios 2020</p>
-    <button id="toggle-theme" type="button" class="btn btn-dark" 
-        onload="loadTheme();" onclick="toggleTheme();">Switch to dark mode</button>
+    <button id="toggle-theme" type="button" class="btn btn-dark" onclick="toggleTheme();">Switch to dark mode</button>
+    <script type="text/javascript">loadTheme();</script>
 </footer>
 
 </body>

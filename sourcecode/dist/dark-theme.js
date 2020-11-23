@@ -38,6 +38,7 @@ let setLightTheme = () => {
     button.textContent = "Switch to dark mode";
 
     toggleClass("bg-dark", "bg-light");
+    toggleClass("bg-darker", "bg-lighter");
     toggleClass("text-light", "text-dark");
     toggleClass("btn-light", "btn-dark");
 
@@ -58,6 +59,7 @@ let setDarkTheme = () => {
     button.textContent = "Switch to light mode";
 
     toggleClass("bg-light", "bg-dark");
+    toggleClass("bg-lighter", "bg-darker");
     toggleClass("text-dark", "text-light");
     toggleClass("btn-dark", "btn-light");
 
