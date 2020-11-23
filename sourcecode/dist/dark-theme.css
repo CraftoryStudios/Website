@@ -5,3 +5,13 @@
 .bg-lighter {
     background-color: #e9ecef !important;
 }
+
+.table-light td, .table-light th {
+    border-top: 1px solid #dee2e6 !important;
+    color: #343a40 !important;
+}
+
+.table-dark td, .table-dark th {
+    border-top: 1px solid #272b34 !important;
+    color: #f8f9fa !important;
+}
