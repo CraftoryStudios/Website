@@ -29,7 +29,10 @@ let saveTheme = (theme) => {
  */
 let setLightTheme = () => {
     let widget = document.getElementById("craftory-discord");
-    widget.src = widget.src.replace("theme=dark", "theme=light");
+
+    if (widget) {
+        widget.src = widget.src.replace("theme=dark", "theme=light");
+    }
 
     let button = document.getElementById("toggle-theme");
     button.textContent = "Switch to dark mode";
@@ -46,7 +49,10 @@ let setLightTheme = () => {
  */
 let setDarkTheme = () => {
     let widget = document.getElementById("craftory-discord");
-    widget.src = widget.src.replace("theme=light", "theme=dark");
+
+    if (widget) {
+        widget.src = widget.src.replace("theme=light", "theme=dark");
+    }
 
     let button = document.getElementById("toggle-theme");
     button.textContent = "Switch to light mode";
