@@ -1,4 +1,5 @@
-.bg-darker, .main-nav {
+.bg-darker,
+.main-nav {
     background-color: #23272a !important;
 }
 
@@ -6,12 +7,20 @@
     background-color: #e9ecef !important;
 }
 
-.table-light td, .table-light th {
+.text-dark .table td,
+.text-dark .table th,
+.table-light td,
+.table-light th {
+    border-bottom: 1px solid #dee2e6 !important;
     border-top: 1px solid #dee2e6 !important;
     color: #343a40 !important;
 }
 
-.table-dark td, .table-dark th {
+.text-light .table td,
+.text-light .table th,
+.table-dark td,
+.table-dark th {
+    border-bottom: 1px solid #272b34 !important;
     border-top: 1px solid #272b34 !important;
     color: #f8f9fa !important;
 }
