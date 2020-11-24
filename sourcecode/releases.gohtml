@@ -8,7 +8,7 @@
         <nav aria-label="breadcrumb" class="mb-3">
             <ol class="breadcrumb bg-lighter">
                 <li class="breadcrumb-item text-dark"><a href="/{{.Project.Slug}}">{{.Project.Name}}</a></li>
-                <li class="breadcrumb-itemtext-dark active" aria-current="page">Releases</li>
+                <li class="breadcrumb-item text-dark active" aria-current="page">Releases</li>
             </ol>
         </nav>
 
@@ -16,18 +16,18 @@
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
                     <li class="page-item {{if eq .Page 1}}disabled{{end}}">
-                        <a class="page-link" href="/{{.Project.Slug}}/releases/{{ sub .Page 1 }}.html"
+                        <a class="page-link bg-light" href="/{{.Project.Slug}}/releases/{{ sub .Page 1 }}.html"
                            aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
                     {{range rangeList 1 .TotalPages}}
-                        <li class="page-item {{if eq $.Page .}}active{{end}}"><a class="page-link"
-                                                                                 href="/{{$.Project.Slug}}/releases/{{.}}.html">{{.}}</a>
+                        <li class="page-item {{if eq $.Page .}}active{{end}}">
+                            <a class="page-link bg-light" href="/{{$.Project.Slug}}/releases/{{.}}.html">{{.}}</a>
                         </li>
                     {{end}}
                     <li class="page-item {{if eq .Page .TotalPages}}disabled{{end}}">
-                        <a class="page-link" href="/{{.Project.Slug}}/releases/{{ add .Page 1 }}.html"
+                        <a class="page-link bg-light" href="/{{.Project.Slug}}/releases/{{ add .Page 1 }}.html"
                            aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </a>

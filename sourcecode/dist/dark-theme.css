@@ -15,3 +15,17 @@
     border-top: 1px solid #272b34 !important;
     color: #f8f9fa !important;
 }
+
+.card-header .bg-dark .active {
+    background-color: #495159 !important;
+    border-color: #32393f !important;
+    color: #f8f9fa !important;
+}
+
+.bg-dark .nav-link:not(.active) {
+    color: #a1a3b2 !important;
+}
+
+.page-link.bg-dark {
+    border-color: #41464c !important;
+}
