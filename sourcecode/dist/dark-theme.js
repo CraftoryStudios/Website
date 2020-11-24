@@ -1,6 +1,6 @@
 /**
  * Convenience method to change a certain class into another class.
- * 
+ *
  * @param  {string} remove The class to find and remove
  * @param  {string} add    The replacing class
  */
@@ -38,8 +38,10 @@ let setLightTheme = () => {
     button.textContent = "Switch to dark mode";
 
     toggleClass("bg-dark", "bg-light");
+    toggleClass("bg-darker", "bg-lighter");
     toggleClass("text-light", "text-dark");
     toggleClass("btn-light", "btn-dark");
+    toggleClass("table-light", "table-dark");
 
     saveTheme("light");
 };
@@ -58,8 +60,10 @@ let setDarkTheme = () => {
     button.textContent = "Switch to light mode";
 
     toggleClass("bg-light", "bg-dark");
+    toggleClass("bg-lighter", "bg-darker");
     toggleClass("text-dark", "text-light");
     toggleClass("btn-dark", "btn-light");
+    toggleClass("table-dark", "table-light");
 
     saveTheme("dark");
 };
