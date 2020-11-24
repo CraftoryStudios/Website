@@ -18,7 +18,7 @@
 
 .card-header .bg-dark .active {
     background-color: #495159 !important;
-    border-color: #32393f;
+    border-color: #32393f !important;
     color: #f8f9fa !important;
 }
 
