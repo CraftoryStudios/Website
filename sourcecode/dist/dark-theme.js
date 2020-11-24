@@ -41,7 +41,7 @@ let setLightTheme = () => {
     toggleClass("bg-darker", "bg-lighter");
     toggleClass("text-light", "text-dark");
     toggleClass("btn-light", "btn-dark");
-    toggleClass("table-light", "table-dark");
+    toggleClass("table-dark", "table-light");
 
     saveTheme("light");
 };
@@ -63,7 +63,7 @@ let setDarkTheme = () => {
     toggleClass("bg-lighter", "bg-darker");
     toggleClass("text-dark", "text-light");
     toggleClass("btn-dark", "btn-light");
-    toggleClass("table-dark", "table-light");
+    toggleClass("table-light", "table-dark");
 
     saveTheme("dark");
 };
