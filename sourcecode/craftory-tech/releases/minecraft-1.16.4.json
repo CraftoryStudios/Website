@@ -5,10 +5,19 @@
     "type": "release",
     "date": "2020-11-15T21:44:00+00:00",
     "links": {
-      "Direct Download": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=371278"
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=371278"
     },
     "downloads": {
-      "Direct Download": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=367245"
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=367245"
+    }
+  },
+  {
+    "version": "0.2.10",
+    "changelog": "Light API Fork Support, Bugs Fixes, Removed annoying messages on join, Removed backwards compatibility with pre 0.2.2 and improved performance.",
+    "type": "beta",
+    "date": "2020-11-26T21:44:00+00:00",
+    "downloads": {
+      "Direct Download": "https://www.dropbox.com/s/cgb8z142k3siu72/Craftory-0.2.10.jar?raw=1"
     }
   }
 ]
