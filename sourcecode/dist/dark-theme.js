@@ -19,6 +19,11 @@ let toggleClass = (remove, add) => {
  * @param  {string} theme The theme as a string ("light" or "dark")
  */
 let saveTheme = (theme) => {
+    if (cookieconsent.status !== "allow") {
+        // Ensure that the user has allowed cookies
+        return;
+    }
+
     let date = new Date();
     date.setFullYear(date.getFullYear() + 1);
     document.cookie = "theme=" + theme + "; samesite=strict; expires=" + date.toUTCString() + "; path=/";
@@ -75,6 +80,11 @@ let setDarkTheme = () => {
  * The selected theme is stored inside a cookie.
  */
 var loadTheme = () => {
+    if (cookieconsent.status !== "allow") {
+        // Ensure that the user has allowed cookies
+        return;
+    }
+
     let cookie = "; " + document.cookie;
     let values = cookie.split("; theme=");
 
