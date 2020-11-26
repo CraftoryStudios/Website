@@ -1,0 +1,50 @@
+.bg-darker,
+.main-nav {
+    background-color: #23272a !important;
+}
+
+.bg-lighter {
+    background-color: #e9ecef !important;
+}
+
+.text-dark .table td,
+.text-dark .table th,
+.table-light td,
+.table-light th {
+    border-bottom: 1px solid #dee2e6 !important;
+    border-top: 1px solid #dee2e6 !important;
+    color: #343a40 !important;
+}
+
+.text-light .table td,
+.text-light .table th,
+.table-dark td,
+.table-dark th {
+    border-bottom: 1px solid #272b34 !important;
+    border-top: 1px solid #272b34 !important;
+    color: #f8f9fa !important;
+}
+
+.card-header .bg-dark .active {
+    background-color: #495159 !important;
+    border-color: #32393f !important;
+    color: #f8f9fa !important;
+}
+
+.bg-dark .nav-link:not(.active) {
+    color: #a1a3b2 !important;
+}
+
+.page-link.bg-dark {
+    border-color: #41464c !important;
+}
+
+.text-light pre {
+    border-radius: 1.5%;
+    box-shadow: 4px 4px 10px 4px #302d2d;
+}
+
+.text-dark pre {
+    border-radius: 1.5%;
+    box-shadow: 4px 4px 10px 4px #d1d1d1;
+}

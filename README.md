@@ -87,6 +87,3 @@ Once you are done with your edits to the website, create a pull request to the *
 This pull request will need to be reviewed by at least 1 member of the admin team. Once it has been approved it can be merged in. 
 
 On merging into the *Main* branch, this will trigger a build which will publish the code live to the website.
-
-Changelog
-- Bellow to below (Harry)
