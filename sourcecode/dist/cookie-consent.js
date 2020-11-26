@@ -16,3 +16,5 @@ cookieconsent.initialise({
     "allow": "Allow Cookies"
   }
 });
+
+loadTheme();
