@@ -111,30 +111,10 @@
 <footer class="container d-flex flex-wrap justify-content-between pt-4 pb-2">
     <p class="text-dark">© Craftory Studios 2020</p>
     <button id="toggle-theme" type="button" class="btn btn-dark" onclick="toggleTheme();">Switch to dark mode</button>
-    <script type="text/javascript">loadTheme();</script>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#252e39"
-    },
-    "button": {
-      "background": "#14a7d0"
-    }
-  },
-  "theme": "edgeless",
-  "position": "bottom-left",
-  "type": "opt-in",
-  "content": {
-    "message": "This website uses cookies for storing personalisations settings on our wesbite.",
-    "dismiss": "Decline",
-    "allow": "Allow Cookies"
-  }
-});
-</script>
+<script src="/dist/cookie-consent.js"></script>
 
 </body>
 </html>

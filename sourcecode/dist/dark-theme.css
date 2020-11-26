@@ -38,3 +38,13 @@
 .page-link.bg-dark {
     border-color: #41464c !important;
 }
+
+.text-light pre {
+    border-radius: 1.5%;
+    box-shadow: 4px 4px 10px 4px #302d2d;
+}
+
+.text-dark pre {
+    border-radius: 1.5%;
+    box-shadow: 4px 4px 10px 4px #d1d1d1;
+}
