@@ -26,7 +26,7 @@ let saveTheme = (theme) => {
 
     let date = new Date();
     date.setFullYear(date.getFullYear() + 1);
-    document.cookie = "theme=" + theme + "; samesite=strict; expires=" + date.toUTCString() + "; path=/";
+    document.cookie = `theme=${theme}; samesite=strict; expires=${date.toUTCString()}; path=/`;
 };
 
 /**
@@ -80,20 +80,23 @@ let setDarkTheme = () => {
  * The selected theme is stored inside a cookie.
  */
 var loadTheme = () => {
-    let container = document.getElementById("discord-widget-container");
-    
-    if (container) {
-        container.innerHTML = `<iframe id="craftory-discord" src="https://discord.com/widget?id=730061796093984840&amp;theme=light" 
-                        allowtransparency="false" width="350" height="450" frameborder="0" sandbox="allow-popups 
-                        allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>`;
-    }
-    
-    if (!hasAllowedCookies()) {
+    let theme;
+
+    if (hasAllowedCookies()) {
         // Ensure that the user has allowed cookies
-        return;
+        theme = cookieconsent.utils.getCookie("theme");
+    } else {
+        theme = "light";
     }
 
-    let theme = cookieconsent.utils.getCookie("theme");
+    let container = document.getElementById("discord-widget-container");
+
+    if (container) {
+        container.innerHTML = `<iframe id="craftory-discord" src="https://discord.com/widget?id=730061796093984840&amp;theme=${theme}" 
+                        allowtransparency="false" width="350" height="450" frameborder="0" 
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+                        </iframe>`;
+    }
 
     if (theme === "dark") {
         setDarkTheme();
