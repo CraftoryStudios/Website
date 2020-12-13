@@ -12,8 +12,8 @@
     }
   },
   {
-    "version": "0.2.10 v2",
-    "changelog": "Light API Fork Support, Bugs Fixes, Removed annoying messages on join, Removed Bugged Stats, Fixed Class Cast Bug, Fixed Itemstack null or air bug, Removed backwards compatibility with pre 0.2.2 and improved performance.",
+    "version": "0.2.10",
+    "changelog": "(Beta Version 2) Light API Fork Support, Bugs Fixes, Removed annoying messages on join, Removed Bugged Stats, Fixed Class Cast Bug, Fixed Itemstack null or air bug, Removed backwards compatibility with pre 0.2.2 and improved performance.",
     "type": "beta",
     "date": "2020-12-13T21:44:00+00:00",
     "downloads": {
