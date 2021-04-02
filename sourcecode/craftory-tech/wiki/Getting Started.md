@@ -21,8 +21,8 @@ new Ore added by Craftory Tech... Copper. Most machines are made from a
 Steel (Iron and Charcoal), Copper, Magnetised Iron and a Core. More on
 Crafting Components
 
-2\. The first machine you'll need is the Iron [[Foundry]] (Non Electric
-Version). This will be used to start making Steel Ingots, the main
+2\. The first machine you'll need is the Iron [[Foundry]] - Non Electric
+Version. This will be used to start making Steel Ingots, the main
 ingredient in crafting machines. By putting fuel in, and then charcoal
 and iron ingots in the other two slots you can produce Steel, but be
 prepared at this stage its pretty slow.
