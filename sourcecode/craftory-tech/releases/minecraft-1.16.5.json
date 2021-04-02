@@ -7,5 +7,38 @@
     "downloads": {
       "Direct Download": "https://www.dropbox.com/s/hao5jtdvj4ky6af/Craftory-0.2.11.jar?raw=1"
     }
+  },
+  {
+    "version": "0.2.12",
+    "changelog": "Minecraft 1.16.5 Support, Light API Support, ProtocolLib Version Checker plus fixes",
+    "type": "release",
+    "date": "2021-02-11T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=387038"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=386580"
+    }
+  },
+  {
+    "version": "0.2.13",
+    "changelog": "Support for McMMO plugin, Fixed duplication bug, Fixed ability to salvage custom items (removed ability)",
+    "type": "release",
+    "date": "2021-03-03T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=390572"
+    },
+    "downloads": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/download?version=386580"
+    }
+  },
+  {
+    "version": "0.2.14",
+    "changelog": "Update all Craftory-Tech dependencies, Add Custom Block auto saving, Ability to give recipe book on new player join",
+    "type": "beta",
+    "date": "2021-04-02T21:44:00+00:00",
+    "downloads": {
+      "Direct Download": "https://www.dropbox.com/s/tdhpwpy79ldloal/Craftory-0.2.14.jar?raw=1"
+    }
   }
 ]

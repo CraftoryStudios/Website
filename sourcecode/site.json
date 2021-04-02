@@ -42,7 +42,7 @@
         {
           "name": "Minecraft 1.16.4",
           "source": "craftory-tech/releases/minecraft-1.16.4.json",
-          "featured": true
+          "featured": false
         },
         {
           "name": "Minecraft 1.16.5",
