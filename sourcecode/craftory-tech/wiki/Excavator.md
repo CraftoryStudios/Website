@@ -30,10 +30,10 @@ consume 900 energy.
 
 ## Crafting
 
-![Iron Excavator Recipe](/assets/craftory-tech/crafting/iron_excavator.png)
+![Iron Excavator Recipe](/assets/craftory-tech/crafting/iron_excavator.svg)
 
-![Gold Excavator Recipe](/assets/craftory-tech/crafting/golden_excavator.png)
+![Gold Excavator Recipe](/assets/craftory-tech/crafting/golden_excavator.svg)
 
-![Diamond Excavator Recipe](/assets/craftory-tech/crafting/diamond_excavator.png)
+![Diamond Excavator Recipe](/assets/craftory-tech/crafting/diamond_excavator.svg)
 
-![Netherite Excavator Recipe](/assets/craftory-tech/crafting/netherite_excavator.png)
+![Netherite Excavator Recipe](/assets/craftory-tech/crafting/netherite_excavator.svg)
