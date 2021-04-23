@@ -2,13 +2,10 @@
 
 ***Solution 1 (Client Side Fix):*** Check that you have enabled server resource packs on your Minecraft client you are connecting with.
 
- 1. Go to the Minecraft multiplayer server selection screen.
- 2. Select the server you want to join and click the edit button at the bottom of the screen.
- ![Minecraft Multiplayer Screen](https://www.dropbox.com/s/kmysikizzzu2dj3/sol1.PNG?raw=1)
-
+1. Go to the Minecraft multiplayer server selection screen.
+2. Select the server you want to join and click the edit button at the bottom of the screen.
 3. On the edit screen ensure that "Server Resource Packs" is set to enabled!
 4. It should now work, join the server and it will download.
-![Enable it!](https://www.dropbox.com/s/2iifpzfbil6j6kk/sol1.1.PNG?raw=1)
 
 ***Solution 2 (Server Side):*** 
 *Is there another plugin enabled, which uses a custom resource pack?*
