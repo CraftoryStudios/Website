@@ -40,5 +40,14 @@
     "downloads": {
       "Direct Download": "https://www.dropbox.com/s/tdhpwpy79ldloal/Craftory-0.2.14.jar?raw=1"
     }
+  },
+  {
+    "version": "0.2.15",
+    "changelog": "Fixed Wires, Armour stands and tool potion effect",
+    "type": "beta",
+    "date": "2021-04-23T21:44:00+00:00",
+    "downloads": {
+      "Direct Download": "https://www.dropbox.com/s/ih48k5bchnig8gd/Craftory-0.2.15.jar?raw=1"
+    }
   }
 ]
