@@ -15,82 +15,64 @@ machines planned, including improvements to our existing ones.
 
 # First Steps
 
-1\. One of the first things you will want to do is complete some of the
-early game of Minecraft to gather enough resources, this includes the
-new Ore added by Craftory Tech... Copper. Most machines are made from a
-Steel (Iron and Charcoal), Copper, Magnetised Iron and a Core. More on
-Crafting Components
+## Step 1 - Collecting Materials
+Craftory Tech introduces a lot of new items and machines to the game, all
+these will require lots of resources to build. So the first step is to get
+through early game of Minecraft and gather resources.
 
-2\. The first machine you'll need is the Iron [[Foundry]] - Non Electric
-Version. This will be used to start making Steel Ingots, the main
-ingredient in crafting machines. By putting fuel in, and then charcoal
-and iron ingots in the other two slots you can produce Steel, but be
-prepared at this stage its pretty slow.
+While looking for resources you should focus on gathering Iron, Charcoal
+and also Copper. Copper is a new ore added by Craftory Tech and can be found
+in chunks that have been newly generated since the plugin was added.
+Copper Ore generates at about the same rate as Iron Ore, so shouldn't be hard
+to find!
 
-3\. Before we start generating energy we need one more component,
-Magnetised Iron. Craft a Engineers Hammer and a [[Magnatisation Table]],
-right click the top of the table with an iron ingot to place it on top.
-Now get your hammer and hit the top (left click), particles will appear
-and after multiple hits it will become Magnetised Iron! Don't worry this
-can also be sped up with an Electric [[Magnatiser]].
 
-4\. Now we have some steel we can start producing power, there are many
-generators to pick from, check out the Generators section of the Wiki.
-One of the basic ones is the [[Solid Fuel Generator]], this burns normal
-minecraft fuels and produces energy, which is stored in its internal
-buffer and distributed to machines placed next to it.
+## Step 2 - An In-Game Guide
+So now you have a lot of resource, but what next. A good tip would be to get 
+a recipe book, this is an item added by Craftory Tech and contains every recipe
+in the plugin, it will be your go to guide.
 
-5\. So we have power... but what can we do with it. Firstly you can make
-an Electric [[Foundry]] which will speed up your steel production. You can
-also make [[Electric Furnace]] which are faster than regular ones. Craft
-one of these and plop it down next to the generator so its touching.
-[[Electric Furnace]] Recipe
+On some servers you may receive a Recipe Book as soon as you join the server, if 
+not, they are easy to craft. Fill a 3x3 crafting table with dirt to craft one.
+If you have permission you can also use the "/cr recipebook" command to bring up
+the interface too.
 
-Energy won't start transfering straight away. Right click the generator
-to open up the interface, here we can see the battery on the left and
-output config on the right. Each square on the output config is colour
-coded to match up with a side, click the side your furance/foundry is on
-and the output config square on the interface will go green. Now energy
-will transfer to the machine.
 
-Tip: Don't set side config to green on sides your not using, it just
-adds extra calculations.
+## Step 3 - Early Processing
+Most machines and items require Steel Ingots and Magnetized Iron, but how do 
+you get these. Well Steel, one of the core ingredients can be made in a Foundry.
+There are different types of Foundries, but as we don't have an energy to power
+machines yet, we will need an Iron [[Foundry]]. This is the version of the foundry
+that doesn't require energy, only coal. 
 
-6\. Yay! With our first machine going we can now work on adding more, by
-crafting higher tier ones they have faster and better stats, but also
-higher energy and crafting costs.
+### Steel Ingots
+Craft and place the Iron Foundry down on the ground. Due to a limitation machines can
+only face north. Right click the machine to open it's interface.
+![Foundry Interface](/assets/craftory-tech/gettingstarted/foundry.png)
+There are three slots on the left (inputs) and one slot on the right (output). The recipe 
+for Steel is Iron Ingots and Charcoal, place these in the top two slots and place your
+fuel in the bottom slot.
 
-7\. Storage... If your a hoarder and you want to start collecting energy
-ready for those large scale smelting projects, then the [[Energy Cell]] is
-for you. When connected (Placed next to or by Power Grid) to a block
-providing energy it will begin to store it. These blocks have high
-capacities, as well as input and output.
+When a machine is processing the red energy lighting bolt will begin to animate showing
+that it is working. You can track it's process like any other furnace in minecraft
+by looking at how full the white / grey arrow is.
 
-7\. Got multiple based or want to go more than a few blocks without
-chaining cells. For this purpose we have the Power Grids. These evenly
-distribute energy to all connected machines and if theres any stare to
-energy cells.
+### Magnatised Iron
+Before we can start making machines that use energy, we need one more thing, Magnatised
+Iron. This can be made in a Magnatiser, but again, we don't have energy yet so we have 
+to use the non powered version. 
 
-First get a Power Connector and a [[Wrench]]. Place the Power Connector down
-away from your generator. You can now right click the Power Connector to
-start a connection and click the generator. This will draw a laser beam
-between them showing its connected to the grid. This beam will only show
-when holding a powered block or wrench.
+Craft a Engineers Hammer and a [[Magnatisation Table]]. Place the table down on the ground.
+You may notice this machine has non interface, instead of fuel, your going to have to put
+a bit of effort in.
 
-Now place a machine a few blocks away and right click the cell, then the
-machine. This should form a new connection. You should now see energy
-transfer from the generator to the machine. You can even connect Power
-Connectors together in a chain or any other pattern.
+Right click the table with a Iron Ingot in your hand will place it on top of the table. 
+Using the Engineers Hammer you just crafted hit the top of the table (left click with hammer).
+As you do this you will see particles will appear showing you it's working and after multiple
+hits it will become Magnetised Iron that you can right click to pick up.
 
-8\. For large scale projects you can build a [[Configurator]], this allows
-you to copy output configs. Left click to copy and right click to paste!
-Shift Right click to clear currently copied config or just copy a
-different one.
+I know these processes are slow now, but soon we can make Electric Foundries and [[Magnatiser]]
+to speed this up and automate it!
 
-## Want More!!
+# Continue to [[Getting Started 2]]
 
-### Check out the Machines Section of Wiki!
-
-We will have new machines coming very soon, we have spent our time so
-far laying the ground work to allow high performance and the ability to
-quickly add new features in the future.
