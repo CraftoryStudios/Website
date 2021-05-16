@@ -25,10 +25,10 @@ slot in any cell, the higher tier cells charge faster.
 
 ## Crafting
 
-![Iron Drill Recipe](/assets/craftory-tech/crafting/iron_drill.svg)
+![Iron Drill Recipe](/assets/craftory-tech/crafting/iron_drill.png)
 
-![Gold Drill Recipe](/assets/craftory-tech/crafting/gold_drill.svg)
+![Gold Drill Recipe](/assets/craftory-tech/crafting/gold_drill.png)
 
-![Diamond Drill Recipe](/assets/craftory-tech/crafting/diamond_drill.svg)
+![Diamond Drill Recipe](/assets/craftory-tech/crafting/diamond_drill.png)
 
-![Netherite Drill Recipe](/assets/craftory-tech/crafting/netherite_drill.svg)
+![Netherite Drill Recipe](/assets/craftory-tech/crafting/netherite_drill.png)

@@ -11,4 +11,4 @@ Click to paste the config. Shift-Right click to clear.
 
 ## Crafting
 
-![Configurator Recipe](/assets/craftory-tech/crafting/Configurator.svg)
+![Configurator Recipe](/assets/craftory-tech/crafting/configurator.png)
