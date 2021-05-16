@@ -1,4 +1,5 @@
-# Craftory Studios Website      ![Build Website](https://github.com/CraftoryStudios/website/workflows/Build%20Website/badge.svg?branch=main)
+# Craftory Studios Website      
+![Build Website](https://github.com/CraftoryStudios/website/workflows/Build%20Website/badge.svg?branch=main)
 
 Craftory Studios is a collections of Spigot/Paper Minecraft Plugins with the aim of bringing new and exciting new feature to Minecraft without the need of client side mods. Just join a server and enjoy playing!
 
