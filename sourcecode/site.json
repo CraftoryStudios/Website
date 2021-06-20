@@ -48,6 +48,11 @@
           "name": "Minecraft 1.16.5",
           "source": "craftory-tech/releases/minecraft-1.16.5.json",
           "featured": true
+        },
+        {
+          "name": "Minecraft 1.17.0",
+          "source": "craftory-tech/releases/minecraft-1.17.0.json",
+          "featured": true
         }
       ],
       "templates": {
