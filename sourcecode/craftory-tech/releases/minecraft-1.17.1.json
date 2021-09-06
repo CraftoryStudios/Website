@@ -1,0 +1,38 @@
+[
+  {
+    "version": "0.3.2",
+    "changelog": "Support for Minecraft 1.17.1",
+    "type": "release",
+    "date": "2021-06-21T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=412816"
+    }
+  },
+  {
+    "version": "0.4.0",
+    "changelog": "1.16.x Backwards compatibility",
+    "type": "release",
+    "date": "2021-06-22T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=416634"
+    }
+  },
+  {
+    "version": "0.4.1",
+    "changelog": "Patch permissions issues and improve jar size",
+    "type": "release",
+    "date": "2021-06-22T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=419395"
+    }
+  },
+  {
+    "version": "0.5.0",
+    "changelog": "Protection plugin support and fixes for 1.17.x ",
+    "type": "release",
+    "date": "2021-06-22T21:44:00+00:00",
+    "links": {
+      "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=422525"
+    }
+  }
+]
