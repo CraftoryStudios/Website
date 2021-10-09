@@ -1,3 +1,0 @@
-**Ores**
-
-- [[Copper Ore]]

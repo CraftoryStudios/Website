@@ -1,9 +1,10 @@
-**The Basics**
-
+**Using the mod**
+- [[How to install]]
 - [[Getting Started]]
+
+**Troubleshooting**
 - [[Resource Pack Problems]]
 
-**Configuration**
-
+**Serverside Configuration**
 - [[Permissions]]
 - [[Server Config]]

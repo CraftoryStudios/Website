@@ -11,7 +11,7 @@ Craftory Tech is currently in ALPHA, we have many more features and machines pla
 ## Step 1 - Collecting Materials
 Craftory Tech introduces a lot of new items and machines to the game, all these will require lots of resources to build. So the first step is to get through early game of Minecraft and gather resources.
 
-While looking for resources you should focus on gathering Iron, Charcoal and also Copper. Copper is a new ore added by Craftory Tech and can be found in chunks that have been newly generated since the plugin was added. Copper Ore generates at about the same rate as Iron Ore, so shouldn't be hard to find!
+While looking for resources you should focus on gathering Iron, Charcoal and also Copper.
 
 
 ## Step 2 - An In-Game Guide

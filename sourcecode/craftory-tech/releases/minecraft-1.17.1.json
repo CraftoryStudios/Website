@@ -34,5 +34,14 @@
     "links": {
       "Spigot": "https://www.spigotmc.org/resources/craftory-tech.81151/update?update=422525"
     }
+  },
+  {
+    "version": "0.6.0",
+    "changelog": "Features:\n‣ item-transport: add support for transport pipes #140\n‣ recipes: change solid fuel generator recipe #149\n‣ tools: add electric chainsaws #134\n‣ translation: add Lithuanian translation\n‣ resource-pack: reduce size by 27%\n‣ resource-pack: overhaul resource pack system and host resource pack in main code repo for quicker development\n‣ recipes: update solid fuel generator recipe\n\nBug Fixes:\n‣ wires: wire distance works across world\n‣ actions: update tagged release to java 16\n\nBuilds:\n‣ deps: bump mcMMO from 2.1.201 to 2.1.202\n\nNote: In the TransportPipes config.yml you need to set resourcepack_mode: server",
+    "type": "release",
+    "date": "2021-10-09T12:00:00+00:00",
+    "links": {
+      "Github": "https://github.com/CraftoryStudios/Craftory-Tech/releases/download/v0.6.0/Craftory-0.6.0.jar"
+    }
   }
 ]
