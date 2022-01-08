@@ -1,4 +1,4 @@
-# Items Adder Compatibility
+# Overview
 This guide covers how to get Craftory Tech and Items Adder working together. 
 
 When editing config files please edit the existing options and don't add new ones, the layout may look slightly different in the files, but all options names are correct.
