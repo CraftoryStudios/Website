@@ -11,3 +11,4 @@
 
 - [[Permissions]]
 - [[Server Config]]
+- [[ItemsAdder Compatibility]]
