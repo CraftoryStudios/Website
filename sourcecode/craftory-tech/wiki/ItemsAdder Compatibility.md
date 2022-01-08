@@ -11,31 +11,31 @@ When editing config files please edit the existing options and don't add new one
    
 3. Inside plugins/Craftory open the config file and make the following changes:
 ```yml
-resourcePack:
-    forcePack: false
+    resourcePack:
+        forcePack: false
 ```
 
 4. Inside plugins/ItemAdder open the config file and make the following changes:
 ```yml
-blocks:
-    disable-REAL: true
+    blocks:
+        disable-REAL: true
 ```
-
-Now the basics are out the way, please pick one of the following options that applies to you:
 
 
 -------------------------
 
 
-## I had Craftory Tech installed and being used on my server already OR
-## I had neither Craftory nor ItemsAdder installed and being used on my server already:
+Now the basics are out the way, please pick one of the following options that applies to you:
+
+## I had Craftory Tech  OR Neither plugin installed and being used on my server already:
+
 5. Inside plugins/ItemsAdder open the config file and make the following changes:
 ```yml
-resource-pack:
-    items:
-        CustomModelData-starting-value:
-            ALL: 200000
-            DIAMOND: 210000
+    resource-pack:
+        items:
+            CustomModelData-starting-value:
+                ALL: 200000
+                DIAMOND: 210000
 ```
 (This will stop ItemsAdder from using the same id's as Craftory Tech)
 
@@ -58,13 +58,14 @@ NOTE: replace v0.8.2 with the version of Craftory you are using.
 1. Next step is to merge the resource packs and host them, theres two ways to go about this:
 
 *ItemsAdder*
+-------------------------
 ItemsAdder is able to merge resource packs. Following this [GUIDE](https://itemsadder.devs.beer/plugin-usage/merge-resourcepacks), place the assets folder of the Craftory resourcepack into IA and run /iazip. 
 Then follow IA's guide on hosting methods found on their wiki.
 
 -------------------------
-*OR*
 
 *Manually*
+-------------------------
 Download Item Adder resource pack and manually merge the two resource packs together. There are many guides on the internet, but if you drag one asset folder into the other and copy. Any conflicts between files, both files should be opened and manually merged.
 
 Host the finished resource pack on dropbox, a preferred hosting service or https://mc-packs.net/
