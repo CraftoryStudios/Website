@@ -4,18 +4,18 @@
   "projects": [
     {
       "name": "Craftory Tech",
-      "wikiPath": "craftory-tech/wiki",
+      "wikiPath": "/Website/craftory-tech/wiki",
       "wikiSidebars": [
         {
-          "file": "craftory-tech/wiki/sidebar/Guides.md",
+          "file": "/Website/craftory-tech/wiki/sidebar/Guides.md",
           "name": "Guides"
         },
         {
-          "file": "craftory-tech/wiki/sidebar/Blocks.md",
+          "file": "/Website/craftory-tech/wiki/sidebar/Blocks.md",
           "name": "Blocks"
         },
         {
-          "file": "craftory-tech/wiki/sidebar/Items.md",
+          "file": "/Website/craftory-tech/wiki/sidebar/Items.md",
           "name": "Items"
         }
       ],
@@ -62,10 +62,10 @@
     },
     {
       "name": "Craftory Utils",
-      "wikiPath": "craftory-utils/wiki",
+      "wikiPath": "/Website/craftory-utils/wiki",
       "wikiSidebars": [
         {
-          "file": "craftory-utils/wiki/sidebar/Guides.md",
+          "file": "/Website/craftory-utils/wiki/sidebar/Guides.md",
           "name": "Guides"
         }
       ],
