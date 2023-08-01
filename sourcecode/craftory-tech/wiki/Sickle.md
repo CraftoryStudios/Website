@@ -25,14 +25,14 @@ all plants on the same y level in a radius around.
 
 ## Crafting
 
-![Wood Sickle Recipe](/assets/craftory-tech/crafting/sickle_wood.png)
+![Wood Sickle Recipe](/Website/assets/craftory-tech/crafting/sickle_wood.png)
 
-![Stone Sickle Recipe](/assets/craftory-tech/crafting/sickle_stone.png)
+![Stone Sickle Recipe](/Website/assets/craftory-tech/crafting/sickle_stone.png)
 
-![Iron Sickle Recipe](/assets/craftory-tech/crafting/sickle_ironpng.png)
+![Iron Sickle Recipe](/Website/assets/craftory-tech/crafting/sickle_ironpng.png)
 
-![Steel Sickle Recipe](/assets/craftory-tech/crafting/sickle_steel.png)
+![Steel Sickle Recipe](/Website/assets/craftory-tech/crafting/sickle_steel.png)
 
-![Gold Sickle Recipe](/assets/craftory-tech/crafting/sickle_gold.png)
+![Gold Sickle Recipe](/Website/assets/craftory-tech/crafting/sickle_gold.png)
 
-![Diamond Sickle Recipe](/assets/craftory-tech/crafting/sickle_diamond.png)
+![Diamond Sickle Recipe](/Website/assets/craftory-tech/crafting/sickle_diamond.png)

@@ -47,4 +47,4 @@ block. This will disable energy transfer in and out of the block.
 
 ## Recipes
 
-![Windmill Recipe](/assets/craftory-tech/crafting/windmill.png)
+![Windmill Recipe](/Website/assets/craftory-tech/crafting/windmill.png)

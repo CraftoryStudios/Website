@@ -42,4 +42,4 @@ block. This will disable energy transfer in and out of the block.
 
 ## Recipes
 
-![Water Wheel Recipe](/assets/craftory-tech/crafting/waterwheel.png)
+![Water Wheel Recipe](/Website/assets/craftory-tech/crafting/waterwheel.png)

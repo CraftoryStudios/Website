@@ -24,7 +24,7 @@ On some servers you may receive a Recipe Book as soon as you join the server, if
 Most machines and items require Steel Ingots and Magnetized Iron, but how do you get these. Well Steel, one of the core ingredients can be made in a Foundry. There are different types of Foundries, but as we don't have an energy to power machines yet, we will need an Iron [[Foundry]]. This is the version of the foundry that doesn't require energy, only coal. 
 
 ### Steel Ingots
-Craft and place the Iron Foundry down on the ground. Due to a limitation machines can only face north. Right click the machine to open it's interface. ![Foundry Interface](/assets/craftory-tech/gettingstarted/foundry.png) There are three slots on the left (inputs) and one slot on the right (output). The recipe  for Steel is Iron Ingots and Charcoal, place these in the top two slots and place your fuel in the bottom slot.
+Craft and place the Iron Foundry down on the ground. Due to a limitation machines can only face north. Right click the machine to open it's interface. ![Foundry Interface](/Website/assets/craftory-tech/gettingstarted/foundry.png) There are three slots on the left (inputs) and one slot on the right (output). The recipe  for Steel is Iron Ingots and Charcoal, place these in the top two slots and place your fuel in the bottom slot.
 
 When a machine is processing the red energy lighting bolt will begin to animate showing that it is working. You can track it's process like any other furnace in minecraft by looking at how full the white / grey arrow is.
 

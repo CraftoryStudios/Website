@@ -26,10 +26,10 @@ Before use the Power Hammer must be charged. To charge place it in the charging 
 
 ## Crafting
 
-![Iron Power Hammer Recipe](/assets/craftory-tech/crafting/iron_power_hammer.png)
+![Iron Power Hammer Recipe](/Website/assets/craftory-tech/crafting/iron_power_hammer.png)
 
-![Gold Power Hammer Recipe](/assets/craftory-tech/crafting/gold_power_hammer.png)
+![Gold Power Hammer Recipe](/Website/assets/craftory-tech/crafting/gold_power_hammer.png)
 
-![Diamond Power Hammer Recipe](/assets/craftory-tech/crafting/diamond_power_hammer.png)
+![Diamond Power Hammer Recipe](/Website/assets/craftory-tech/crafting/diamond_power_hammer.png)
 
-![Netherite Power Hammer Recipe](/assets/craftory-tech/crafting/netherite_power_hammer.png)
+![Netherite Power Hammer Recipe](/Website/assets/craftory-tech/crafting/netherite_power_hammer.png)

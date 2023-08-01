@@ -42,4 +42,4 @@ to the block. This will disable energy transfer in and out of the block.
 
 ## Recipes
 
-![Solid Fuel Generator Recipe](/assets/craftory-tech/crafting/iron_solid_fuel_generator.png)
+![Solid Fuel Generator Recipe](/Website/assets/craftory-tech/crafting/iron_solid_fuel_generator.png)

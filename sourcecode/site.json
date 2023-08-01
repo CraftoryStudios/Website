@@ -77,7 +77,7 @@
         }
       ],
       "templates": {
-        "index": "craftory-utils/index.gohtml"
+        "index": "/craftory-utils/index.gohtml"
       }
     }
   ],

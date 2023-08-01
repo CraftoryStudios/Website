@@ -3,7 +3,7 @@ So you got lots of resources processed, even if a little slowly and your ready t
 
 There are many generators to choice from in this plugin, but to get us started, lets use the [[Solid Fuel Generator]], but feel free to checkout the generators section of the wiki for more to try out!
 
-The [[Solid Fuel Generator]]  burns normal Minecraft fuels including Coal, it can be a quick and easy way to get up and running using fuel you already have. Craft this machine, place it down and open up it's interface. ![Foundry Interface](/assets/craftory-tech/gettingstarted/foundry.png)
+The [[Solid Fuel Generator]]  burns normal Minecraft fuels including Coal, it can be a quick and easy way to get up and running using fuel you already have. Craft this machine, place it down and open up it's interface. ![Foundry Interface](/Website/assets/craftory-tech/gettingstarted/foundry.png)
 
 When opening the generator you will see a few things stand out, firstly on the left is a bar representing the internal buffer of energy storage the generator has. Almost all machines will have and internal energy storage, the size of it differs by machine. When looking at the machine you may notice a bar at the top of your screen which shows this internal energy without opening the machine up.
 

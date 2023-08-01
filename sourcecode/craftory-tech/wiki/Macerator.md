@@ -51,14 +51,14 @@ block. This will disable energy transfer in and out of the block.
 
 ## Macerator Recipes
 
-![Macerator Recipe](/assets/craftory-tech/crafting/MaceratorRecipes.png)
+![Macerator Recipe](/Website/assets/craftory-tech/crafting/MaceratorRecipes.png)
 
 ## Recipes
 
-![Iron Macerator Recipe](/assets/craftory-tech/crafting/iron_macerator.png)
+![Iron Macerator Recipe](/Website/assets/craftory-tech/crafting/iron_macerator.png)
 
-![Gold Macerator Recipe](/assets/craftory-tech/crafting/gold_macerator.png)
+![Gold Macerator Recipe](/Website/assets/craftory-tech/crafting/gold_macerator.png)
 
-![Diamond Macerator Recipe](/assets/craftory-tech/crafting/diamond_macerator.png)
+![Diamond Macerator Recipe](/Website/assets/craftory-tech/crafting/diamond_macerator.png)
 
-![Emerald Macerator Recipe](/assets/craftory-tech/crafting/emerald_macerator.png)
+![Emerald Macerator Recipe](/Website/assets/craftory-tech/crafting/emerald_macerator.png)
