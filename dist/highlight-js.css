@@ -1,0 +1,157 @@
+/*!
+ * StackOverflow.com light style
+ *
+ * @stackoverflow/stacks v0.56.0
+ * https://github.com/StackExchange/Stacks
+ */
+
+.text-dark .hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  color: #2f3337 !important;
+  background: #f6f6f6 !important;
+}
+
+.text-dark .hljs-comment {
+  color: #656e77 !important;
+}
+
+.text-dark .hljs-keyword,
+.text-dark .hljs-selector-tag,
+.text-dark .hljs-meta-keyword,
+.text-dark .hljs-doctag,
+.text-dark .hljs-section,
+.text-dark .hljs-selector-class,
+.text-dark .hljs-meta,
+.text-dark .hljs-selector-pseudo,
+.text-dark .hljs-attr {
+  color: #015692 !important;
+}
+
+.text-dark .hljs-attribute {
+  color: #803378 !important;
+}
+
+.text-dark .hljs-name,
+.text-dark .hljs-type,
+.text-dark .hljs-number,
+.text-dark .hljs-selector-id,
+.text-dark .hljs-quote,
+.text-dark .hljs-template-tag,
+.text-dark .hljs-built_in,
+.text-dark .hljs-title,
+.text-dark .hljs-literal {
+  color: #b75501 !important;
+}
+
+.text-dark .hljs-string,
+.text-dark .hljs-regexp,
+.text-dark .hljs-symbol,
+.text-dark .hljs-variable,
+.text-dark .hljs-template-variable,
+.text-dark .hljs-link,
+.text-dark .hljs-selector-attr,
+.text-dark .hljs-meta-string {
+  color: #54790d !important;
+}
+
+.text-dark .hljs-bullet,
+.text-dark .hljs-code {
+  color: #535a60 !important;
+}
+
+.text-dark .hljs-deletion {
+  color: #c02d2e !important;
+}
+
+.text-dark .hljs-addition {
+  color: #2f6f44 !important;
+}
+
+.text-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.text-dark .hljs-strong {
+  font-weight: bold !important;
+}
+
+/*!
+ * StackOverflow.com dark style
+ *
+ * @stackoverflow/stacks v0.56.0
+ * https://github.com/StackExchange/Stacks
+ */
+
+.text-light .hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  color: #ffffff !important;
+  background: #1c1b1b !important;
+}
+
+.text-light .hljs-comment {
+  color: #999999 !important;
+}
+
+.text-light .hljs-keyword,
+.text-light .hljs-selector-tag,
+.text-light .hljs-meta-keyword,
+.text-light .hljs-doctag,
+.text-light .hljs-section,
+.text-light .hljs-selector-class,
+.text-light .hljs-meta,
+.text-light .hljs-selector-pseudo,
+.text-light .hljs-attr {
+  color: #88aece !important;
+}
+
+.text-light .hljs-attribute {
+  color: v#c59bc1 !important;
+}
+
+.text-light .hljs-name,
+.text-light .hljs-type,
+.text-light .hljs-number,
+.text-light .hljs-selector-id,
+.text-light .hljs-quote,
+.text-light .hljs-template-tag,
+.text-light .hljs-built_in,
+.text-light .hljs-title,
+.text-light .hljs-literal {
+  color: #f08d49 !important;
+}
+
+.text-light .hljs-string,
+.text-light .hljs-regexp,
+.text-light .hljs-symbol,
+.text-light .hljs-variable,
+.text-light .hljs-template-variable,
+.text-light .hljs-link,
+.text-light .hljs-selector-attr,
+.text-light .hljs-meta-string {
+  color: #b5bd68 !important;
+}
+
+.text-light .hljs-bullet,
+.text-light .hljs-code {
+  color: #cccccc !important;
+}
+
+.text-light .hljs-deletion {
+  color: #de7176 !important;
+}
+
+.text-light .hljs-addition {
+  color: #76c490 !important;
+}
+
+.text-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.text-light .hljs-strong {
+  font-weight: bold !important;
+}
