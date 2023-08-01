@@ -9,7 +9,7 @@
             <p>Info</p>
             <p></p>
 
-            <a class="btn btn-primary btn-lg" href="/craftory-utils/wiki/getting-started.html"
+            <a class="btn btn-primary btn-lg" href="/Website/craftory-utils/wiki/getting-started.html"
                role="button">Get started</a>
         </div>
     </div>
@@ -30,7 +30,7 @@
                         <div class="card-body text-center text-dark">
                             <h5 class="card-title">{{.Project.Name}} {{.Project.LatestStableRelease.Version}}</h5>
                             <p class="card-text">{{.Project.LatestStableRelease.Group.Name}}</p>
-                            <a href="/{{.Project.Slug}}/releases/{{.Project.LatestStableRelease.Slug}}"
+                            <a href="/Website/{{.Project.Slug}}/releases/{{.Project.LatestStableRelease.Slug}}"
                                class="btn btn-primary">Download</a>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             {{range .Project.ReleaseGroupsReversed}}
                                 {{if .Featured}}
                                     <a class="list-group-item list-group-item-action bg-light"
-                                       href="/{{$.Project.Slug}}/releases/{{.LatestRelease.Slug}}">
+                                       href="/Website/{{$.Project.Slug}}/releases/{{.LatestRelease.Slug}}">
                                         <div class="d-flex justify-content-between text-dark">
                                             <strong>{{.Name}}</strong>
 

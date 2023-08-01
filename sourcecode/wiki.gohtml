@@ -8,7 +8,7 @@
                 {{end}}
                 {{.Wiki.Name}}
                 {{range .Wiki.Meta.Tags}}
-                    <a style="font-size: 15px" href="/{{$.Project.Slug}}/releases/{{ (index $.Project.ReleasesByVersion .Release).Slug }}"
+                    <a style="font-size: 15px" href="/Website/{{$.Project.Slug}}/releases/{{ (index $.Project.ReleasesByVersion .Release).Slug }}"
                        class="badge {{if eq .Type "since"}}badge-primary{{else if eq .Type "removed"}}badge-danger{{end}}">{{if eq .Type "since"}}Since{{else if eq .Type "removed"}}Removed in{{end}}: {{.Release}}</a>
                 {{end}}
             </h2>
@@ -16,8 +16,8 @@
 
         <nav aria-label="breadcrumb" class="mb-3">
             <ol class="breadcrumb bg-lighter">
-                <li class="breadcrumb-item text-dark"><a href="/{{.Project.Slug}}">{{.Project.Name}}</a></li>
-                <li class="breadcrumb-item text-dark"><a href="/{{.Project.Slug}}/wiki">Wiki</a></li>
+                <li class="breadcrumb-item text-dark"><a href="/Website/{{.Project.Slug}}">{{.Project.Name}}</a></li>
+                <li class="breadcrumb-item text-dark"><a href="/Website/{{.Project.Slug}}/wiki">Wiki</a></li>
                 <li class="breadcrumb-item text-dark active" aria-current="page">{{ .Wiki.Name}}</li>
             </ol>
         </nav>
